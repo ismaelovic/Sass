@@ -1,0 +1,10 @@
+//jumbotron
+
+.jumbotron{
+  @include my-gradient;
+  @include my-size;
+
+}
+.jumbotron h1, .jumbotron p{
+  @include my-text;
+}

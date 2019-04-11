@@ -1,0 +1,15 @@
+.card{
+  @include my-card;
+}
+
+.card img{
+  @include my-card-img;
+}
+
+.card a{
+  @include my-card-button;
+}
+
+.card a:hover{
+  @include my-card-button-hover;
+}
